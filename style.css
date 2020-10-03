@@ -10,38 +10,39 @@
 }
 header {
   background-color: #EC715F;
-  height: 70px;
 }
 header ul {
   width: 1024px;
-  margin: 0 auto;
   height: 70px;
+  margin: 0 auto;
 }
 header li {
   list-style: none;
-}
-nav {
   height: 70px;
 }
 .nav-logo {
   float: left;
-}
-.navber-icon {
-  float: right;
 }
 .nav-icon {
   color: #FAFAFA;
   font-size: 16px;
   padding: 25px 30px;
   display: inline-block;
+  float: right;
 }
 .main-subtitle {
   text-align: center;
   font-size: 32px;
   color: #000000;
-  margin-bottom: 8px;
-  border:solid 3px 70px #EC715F;
 }
+.main-subtitle::after {
+  content: "";
+  display: block;
+  margin: 0 auto 8px;
+  border-bottom: solid 3px #EC715F;
+  width: 70px
+}
+
 .subtitle-comment {
   font-size: 16px;
   color: #000000;
@@ -66,12 +67,11 @@ nav {
 }
 .main-2 {
   background-color: #ECEFF1;
-  height: 900px;
 }
 .portfolio {
   width: 920px;
-  margin: 0 auto 90px;
-  padding-top: 90px ;
+  margin: 0px auto;
+  padding: 90px 0;
 }
 .box1 {
   background-image: url(img/sketch.jpg);
@@ -127,9 +127,8 @@ nav {
 }
 .feature {
   width: 980px;
-  height: 1000px;
-  margin: 0 auto;
-  padding-top: 90px ;
+  margin: 0px auto;
+  padding: 90px 0;
 }
 .fa-code, .fa-desktop, .fa-cogs {
   font-size: 60px;
@@ -146,18 +145,21 @@ nav {
   margin: 0px 10px 0px 10px;
   float: left;
 }
-.Strength {
+.strength-title {
   font-size: 20px;
   color: #000000;
   margin: 10px auto;
 }
+.strength {
+  text-align: center;
+}
 .main-4 {
   background-color: #ECEFF1;
-  height: 1000px;
 }
 .profile {
   width: 1024px;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 90px 0;
 }
 .introduction-image {
   width: 512px;
@@ -188,12 +190,10 @@ nav {
   font-size: 16px;
   color: #000000;
 }
-.main-5 {
-  height: 500px;
-}
 .contact {
   width: 800px;
-  margin: 0 auto 90px;
+  margin: 0px auto;
+  padding: 90px 0;
 }
 .address {
   float: left;
