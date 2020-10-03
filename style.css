@@ -12,27 +12,47 @@ header {
   background-color: #EC715F;
   height: 70px;
 }
+header ul {
+  width: 1024px;
+  margin: 0 auto;
+  height: 70px;
+}
 header li {
   list-style: none;
 }
+nav {
+  height: 70px;
+}
 .nav-logo {
-  padding: 5px auto;
+  float: left;
 }
 .navber-icon {
-  text-align: right;
+  float: right;
 }
 .nav-icon {
-  text-align: right;
   color: #FAFAFA;
   font-size: 16px;
-  padding: 10px 30px;
+  padding: 25px 30px;
   display: inline-block;
 }
-.main-top {
+.main-subtitle {
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+  border:solid 3px 70px #EC715F;
+}
+.subtitle-comment {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px auto;
+}
+.main-1 {
   height: 650px;
   background-image: url(img/mv.png);
 }
-.main-top-title {
+.main-title {
   padding-top: 200px;
   text-align: center;
   font-size: 64px;
@@ -43,6 +63,165 @@ header li {
   font-size: 20px;
   margin: 10px;
   text-align: center;
+}
+.main-2 {
+  background-color: #ECEFF1;
+  height: 900px;
+}
+.portfolio {
+  width: 920px;
+  margin: 0 auto 90px;
+  padding-top: 90px ;
+}
+.box1 {
+  background-image: url(img/sketch.jpg);
+  float: left;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.box2 {
+  background-image: url(img/websuku.png);
+  float: left;
+  margin: 0  10px 10px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.box3 {
+  background-image: url(img/write.jpg);
+  float: left;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.box4 {
+  background-image: url(img/webcamp.png);
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.box5 {
+  background-image: url(img/talk.jpg);
+  float: left;
+  margin: 0  10px;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.feature {
+  width: 980px;
+  height: 1000px;
+  margin: 0 auto;
+  padding-top: 90px ;
+}
+.fa-code, .fa-desktop, .fa-cogs {
+  font-size: 60px;
+  text-align: center;
+}
+.strength1, .strength3 {
+  width: 320px;
+  height: auto;
+  float: left;
+}
+.strength2 {
+  width: 320px;
+  height: auto;
+  margin: 0px 10px 0px 10px;
+  float: left;
+}
+.Strength {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px auto;
+}
+.main-4 {
+  background-color: #ECEFF1;
+  height: 1000px;
+}
+.profile {
+  width: 1024px;
+  margin: 0 auto;
+}
+.introduction-image {
+  width: 512px;
+  float: left;
+}
+.my-icon {
+  background-image: url(img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.introduction-comment {
+  float: left;
+  width: 512px;
+}
+.introduction-name {
+  font-size: 20px;
+  margin: 30px auto 5px;
+}
+.introduction-skill {
+  font-size: 20px;
+  margin: 20px auto 5px;
+}
+.comment {
+  font-size: 16px;
+  color: #000000;
+}
+.main-5 {
+  height: 500px;
+}
+.contact {
+  width: 800px;
+  margin: 0 auto 90px;
+}
+.address {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+.address-title {
+  font-size: 20px
+  margin-bottom: 5px;
+}
+.e-mail, .tel-number {
+  border-bottom: solid 1px black;
+  display: inline-block;
+}
+.mail {
+  margin-bottom: 20px;
+}
+.sns {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+.fa-twitter {
+  font-size: 50px;
+  margin: 0 20px;
+}
+.fa-facebook ,.fa-instagram {
+  font-size: 50px
 }
 footer {
   color: #FAFAFA;
